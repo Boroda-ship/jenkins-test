@@ -1,0 +1,44 @@
+# Виртуальное окружение
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Логи и временные файлы
+*.log
+task_execution.log
+scheduled_task.log
+logs/
+*.tmp
+
+# Файлы бэкапов (если не хотите их хранить в репозитории)
+backup_*.txt
+result_*.txt
+task_*.txt
+
+# Файлы созданные задачей
+*.txt
+!README.md
+!requirements.txt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Планировщик задач (локальные файлы)
+*.xml
+*.bat
+!run_scheduled.bat
+
+# Python
+dist/
+build/
+*.egg-info/
